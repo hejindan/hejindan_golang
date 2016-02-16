@@ -3,7 +3,7 @@ import "os"
 import "fmt"
 import "simplemath"
 import "strconv"
-import "github.com/coreos/etcd/etcdmain"
+//import "github.com/coreos/etcd/etcdmain"
 var Usage = func() {
 	fmt.Println("USAGE:calc command [arguments] ....")
 	fmt.Println("\nThe commands are:\n\tadd\tAddition of two values.\n\tsqrt\tAquareroot of a non-negative value.")
