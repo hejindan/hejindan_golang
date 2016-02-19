@@ -12,5 +12,6 @@ func main() {
 	var a Integer = 1
 	c := a.Less(2)
 	fmt.Println(c)
+	fmt.Println(a)
 
 }

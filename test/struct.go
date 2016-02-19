@@ -7,8 +7,8 @@ type Rect struct {
 	width, height float64
 }
 
-func (r Rect) Area() float64 {
-	return r.width * r.height
+func (r *Rect) Area() float64 {
+	return *r.width * *r.height
 }
 func main() {
 	var a Rect = Rect{1.4, 4.2, 9.0, 4.0}
